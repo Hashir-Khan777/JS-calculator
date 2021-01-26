@@ -5,7 +5,7 @@ function nmbr(num) {
 }
 
 function cls() {
-  input.value = "0";
+  input.value = "";
 }
 
 function getresult() {

@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title> Calculator </title>
-</head>
-
-<body>
+  <body>
     <div class="calculator">
-        <table class="calculator-table">
-            <tr>
-                <td colspan="4"> <input type="text"> </td>
-            </tr>
-            <tr>
-                <td colspan="4"> <button onclick="cls()"> c </button> </td>
-            </tr>
-            <tr>
-                <td> <button onclick="nmbr(7)"> 7 </button> </td>
-                <td> <button onclick="nmbr(8)"> 8 </button> </td>
-                <td> <button onclick="nmbr(9)"> 9 </button> </td>
-                <td> <button onclick="nmbr('*')"> x </button> </td>
-            </tr>
-            <tr>
-                <td> <button onclick="nmbr(4)"> 4 </button> </td>
-                <td> <button onclick="nmbr(5)"> 5 </button> </td>
-                <td> <button onclick="nmbr(6)"> 6 </button> </td>
-                <td> <button onclick="nmbr('-')"> - </button> </td>
-            </tr>
-            <tr>
-                <td> <button onclick="nmbr(1)"> 1 </button> </td>
-                <td> <button onclick="nmbr(2)"> 2 </button> </td>
-                <td> <button onclick="nmbr(3)"> 3 </button> </td>
-                <td> <button onclick="nmbr('+')"> + </button> </td>
-            </tr>
-            <tr>
-                <td colspan="2"> <button onclick="nmbr(0)"> 0 </button> </td>
-                <td colspan="2"> <button onclick="getresult()"> = </button> </td>
-            </tr>
-        </table>
+      <table class="calculator-table">
+        <tr>
+          <td colspan="4"><input type="text" disabled /></td>
+        </tr>
+        <tr>
+          <td colspan="4"><button onclick="cls()">c</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="nmbr(7)">7</button></td>
+          <td><button onclick="nmbr(8)">8</button></td>
+          <td><button onclick="nmbr(9)">9</button></td>
+          <td><button onclick="nmbr('*')">x</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="nmbr(4)">4</button></td>
+          <td><button onclick="nmbr(5)">5</button></td>
+          <td><button onclick="nmbr(6)">6</button></td>
+          <td><button onclick="nmbr('-')">-</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="nmbr(1)">1</button></td>
+          <td><button onclick="nmbr(2)">2</button></td>
+          <td><button onclick="nmbr(3)">3</button></td>
+          <td><button onclick="nmbr('+')">+</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button onclick="nmbr(0)">0</button></td>
+          <td colspan="2"><button onclick="getresult()">=</button></td>
+        </tr>
+      </table>
     </div>
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
